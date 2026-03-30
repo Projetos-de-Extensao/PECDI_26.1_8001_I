@@ -20,7 +20,7 @@ Do ponto de vista pedagógico, as AAC existem para garantir que a formação do 
 É vedado, por legislação federal, equiparar as atividades complementares ao Estágio Curricular Supervisionado Obrigatório. Estágios não obrigatórios, contudo, podem ser computados como AAC dentro dos limites definidos por cada IES.
 
 2. Regulamentação Institucional — Modelo Ibmec
-3. 
+   
 2.1 Tipos de Atividades Reconhecidas
 O Ibmec adota uma classificação binária das atividades complementares, distinguindo-as entre internas e externas. Essa distinção influencia diretamente o fluxo de submissão e os prazos de validação aplicáveis:
 •	Atividades internas: realizadas no próprio ambiente institucional, tais como iniciação científica, monitoria, palestras e eventos promovidos pela faculdade, e participação em Ligas Acadêmicas. O lançamento costuma ser mais fluido, com prazo de até 30 dias.
