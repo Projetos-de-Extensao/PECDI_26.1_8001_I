@@ -1,5 +1,7 @@
 # Projeto Front-End
 
+- Grupo: Matheus, Julia, Carlos, Bernardo, Leonardo e Pietro
+  
 ## Sobre 
 Disciplina que planeja o desenvolvimento de um Front-End a partir de uma demanda externa. 
 
