@@ -63,10 +63,17 @@ Julia — O cadastro deve ser vinculado ao e-mail institucional do Ibmec, garant
 
 ---
  
-### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
+### 5. Quais informações o aluno precisa visualizar na plataforma?
 <p align = "justify">
-<b>XXX</b> - O cliente....
+<b>Mateus</b> - Com a localização das horas em um painel visual, o aluno deve ver de imediato quantas horas já foram aprovadas, quantas estão em análise e quantas ainda faltam para atingir a meta do curso. 
+ - O aluno deve poder acessar o histórico completo de todas as solicitações, com data de envio, status atual e motivo em caso de reprovação. 
+ - O aluno deve ver o catálogo de atividades válidas para o seu curso com os limites por categoria já indicados, para não enviar certificados de atividades que não serão aceitas. 
+ - O aluno deve receber alertas automáticos quando estiver a menos de 20% da carga horária no penúltimo semestre, evitando surpresas na colação de grau.
+ - O usuário deve poder acessar um relatório exportável com o resumo das suas horas para apresentar à secretaria ou à coordenação quando necessário.
 </p>
+
+
+---
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
