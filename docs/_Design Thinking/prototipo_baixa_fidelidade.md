@@ -21,7 +21,16 @@ Iniciamos o projeto através dos levantamentos iniciais da equipe, após discuss
 ### Tela Login
 
 Prototipo 1
-![Alt text](https://example.com/image.jpg "Image Title")
+<p align = "justify">
+Utilizamos a plataforma 'Lovable' para realizar o primeiro prototipo de baixa fidelidade.
+</p>
+
+<iframe
+  src="https://id-preview--d7a9ea2f-92a7-49fe-a8a0-22285dd0ed07.lovable.app/?__lovable_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibXoydjFVbmlTdVExNXViaFdaWGxRemhuSFVoMiIsInByb2plY3RfaWQiOiJkN2E5ZWEyZi05MmE3LTQ5ZmUtYThhMC0yMjI4NWRkMGVkMDciLCJhY2Nlc3NfdHlwZSI6InByb2plY3QiLCJpc3MiOiJsb3ZhYmxlLWFwaSIsInN1YiI6ImQ3YTllYTJmLTkyYTctNDlmZS1hOGEwLTIyMjg1ZGQwZWQwNyIsImF1ZCI6WyJsb3ZhYmxlLWFwcCJdLCJleHAiOjE3NzY2NTAyODIsIm5iZiI6MTc3NjA0NTQ4MiwiaWF0IjoxNzc2MDQ1NDgyfQ.hvkaEGXx79nwoH9u7NglriyG_vxxJTpChwSELmx_Fa52DAvrEKxhgQy5O2IPPh1E0M1JYtPZDnhxhJb3I9CpxIkuYtW05RjuBmeCtQuAhGHycsw9kKu3UTUsDUFMLg6DGD56SD9Lr8AQTZQrrowR4gIqjGT4lOq9ZcNcOThS6Bh_iCciJu4oJKV_EgoBQ1Ix7gB4k9Vjvl8iFP4nH0fuhK9woa3t2QQi1Qw0mwxBnHVB7kJzG3koOzweOPEpbedQDpVWQQbis5imcjlJg9GxstNP0lt2jGBS7C9HDiPErl3_xi1qslDPucSUdvkk4Hdgv9QHZGpRbzjb8HHyqI0LrwCwkMdQUcUOO1SthJfyWGN0xaq4GbXaZnHuVEV2D4vkzhWtm9Ns6I1dHNf_AFuQGM_ooUB_9JoylyokO6IjwMUJDeon7-YNEqYaDAiUn1w1vIkMxX-ew-DSYWYsFYPfaIAstpHgGCFHldF85p_wwZGAKsV6z338QA4R1XnS2uCkmw3iDAdHJaW_HbIcNYkv8Po4tSEJUqqSw-q19JuP4u82nWlKoEVnj4M_1MTL4f4wUFtzDhaVKltsLphgdM38P9AbBSTvWvxIdndwDbIA9XBjpgZJWnw91mXtMSGUmtCtxLVYkHWo_yVtp0zkrQUET7CUI_ffz9Nvz_FTS6VQvXw"
+  width="100%"
+  height="700px"
+  style="border: none; border-radius: 8px;"
+></iframe>
 
 ### Tela Cadastro 1
 
@@ -143,7 +152,4 @@ A partir da elaboração do protótipo foi possível ter uma noção inicial da 
 
 | Data     | Versão | Descrição                            | Autor(es)                                                                            |
 | -------- | ------- | -------------------------------------- | ------------------------------------------------------------------------------------ |
-| 07/09/20 | 1.0     | Criação do documento                 | Lucas Alexandre e Matheus Estanislau                                                 |
-| 07/09/20 | 1.1     | Adicionado as imagens do protótipo    | Lucas Alexandre e Matheus Estanislau                                                 |
-| 07/09/20 | 1.2     | Adicionado conclusão e referências   | Lucas Alexandre e Matheus Estanislau                                                 |
-| 26/10/20 | 2.0     | Adicionada a versão 2.0 do protótipo | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
+| 12/04/26 | 1.0     | Criação do documento                 | Bernardo, Carlos, Julia, Leonardo, Matheus e Pietro | 

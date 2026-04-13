@@ -77,3 +77,10 @@ title: Design Thinking
 - Adapte o documento conforme o estágio do projeto (ex.: um documento inicial pode focar mais na pesquisa, enquanto um final pode detalhar a solução).
 
 Esse modelo é flexível e pode ser ajustado conforme as necessidades do seu projeto ou da sua equipe. O importante é que o documento reflita o processo colaborativo e iterativo do Design Thinking.
+
+<iframe
+  src="https://www.canva.com/design/DAHGOBfeai4/GIjO4EBs0phM32IlUIRyaA/view?embed"
+  width="100%"
+  height="500px"
+  style="border: none; border-radius: 8px;"
+></iframe>

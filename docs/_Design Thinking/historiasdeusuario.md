@@ -35,6 +35,14 @@ A criação e o uso de histórias de usuário geralmente seguem esta metodologia
 
 ### História de Usuário
 
-* US001
-* US002
-* US003...
+* US001 - Aluno
+Como **aluno**, eu quero logar no sistema para fazer o lançamento e acompanhamento das minhas horas complementares.
+**Meta**: Registrar e acompanhar suas ACCs de forma autônoma.
+* US002 - Coordenação
+Como **coordenação**, eu quero logar no sistema para realizar a aprovação ou recusa dos pedidos de horas complementares.
+**Meta**: Validar certificados com eficiência e suporte da automoção para triagem e alertas de regras.
+* US003 - Secretaria
+Como **secretaria**, eu quero realizar o reconhecimento das AACs no sistema após a aprovação dos coordenadores.
+**Meta**: Monitorar e homologar as ACCs de todos os cursos de forma centralizada.
+
+

@@ -118,5 +118,5 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
  
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| 05/04/2026 | 1.0 | Atualização do documento | Matheus , Julia, Carlos, Bernardo, Leonardo e Pietro |
+| --/--/-- | -- | -- | -- |
+| 05/04/26 | 1.0 | Atualização do documento | Bernardo, Carlos, Julia, Leonardo, Matheus e Pietro |
