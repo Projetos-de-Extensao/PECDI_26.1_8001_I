@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIA Ibmec — Coordenador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="portal">
+ 
+  <nav class="sidebar">
+    <div class="sidebar-brand">
+      <span class="ibmec-dot"></span>
+      <span class="ibmec-name">ibmec</span>
+    </div>
+    <div class="sidebar-nav">
+      <a href="#" class="sidebar-item">Minhas Disciplinas <span class="arrow">›</span></a>
+      <a href="#" class="sidebar-item">Acadêmico <span class="arrow">›</span></a>
+      <a href="#" class="sidebar-item">E-mail de Estudante <span class="arrow">›</span></a>
+      <a href="#" class="sidebar-item">Financeiro <span class="arrow">›</span></a>
+      <a href="#" class="sidebar-item">Atendimento <span class="arrow">›</span></a>
+      <a href="index.html" class="sidebar-item active">Atividades Complementares <span class="arrow">›</span></a>
+      <a href="#" class="sidebar-item">Avaliação Institucional <span class="arrow">›</span></a>
+      <a href="#" class="sidebar-item">Bibliotecas Virtuais <span class="arrow">›</span></a>
+    </div>
+  </nav>
+ 
+  <div class="main">
+    <header class="topbar">
+      <div class="topbar-brand">
+        <span class="ibmec-dot"></span>
+        <span class="ibmec-name">ibmec</span>
+      </div>
+      <div class="topbar-right">
+        <a href="notificacoes.html" class="notif-link"><span>🔔</span> Notificações</a>
+        <div class="user-info">
+          <div class="name">Olá, <strong>Prof. Ricardo</strong></div>
+          <div class="mat">Coordenador de Curso</div>
+        </div>
+        <div class="avatar" style="background:#16a34a;">R</div>
+      </div>
+    </header>
+ 
+    <nav class="tabs-bar">
+      <a href="index.html"         class="tab-link"><span class="tab-icon">📊</span> Painel</a>
+      <a href="enviar.html"        class="tab-link"><span class="tab-icon">📎</span> Enviar Certificado</a>
+      <a href="historico.html"     class="tab-link"><span class="tab-icon">📋</span> Histórico</a>
+      <a href="notificacoes.html"  class="tab-link"><span class="tab-icon">🔔</span> Notificações</a>
+      <a href="coordenador.html"   class="tab-link active"><span class="tab-icon">✅</span> Coordenador</a>
+      <a href="secretaria.html"    class="tab-link"><span class="tab-icon">🏫</span> Secretaria</a>
+    </nav>
+ 
+    <div class="content">
+ 
+      <!-- Header -->
+      <div class="fila-header">
+        <h1 class="page-title" style="margin-bottom:0;">Fila de Validação</h1>
+        <span class="badge-count">⚠ 12 pendentes</span>
+      </div>
+ 
+      <!-- Filters -->
+      <div class="filter-chips" style="margin-top:12px;">
+        <span class="chip chip-active">Todos</span>
+        <span class="chip chip-inactive">Formandos</span>
+        <span class="chip chip-inactive">Pendentes &gt;7d</span>
+      </div>
+ 
+      <!-- Card 1: expandido com ações -->
+      <div class="subm-card">
+        <div class="subm-card-head">
+          <div>
+            <div class="subm-student-name">Maria Oliveira</div>
+            <div class="subm-student-sub">Ciência de Dados · 7º período</div>
+          </div>
+          <span class="badge-formando">⚠ Formando</span>
+        </div>
+ 
+        <div class="doc-row">
+          <span>📄 certificado_python_fgv.pdf</span>
+          <a href="#">Visualizar</a>
+        </div>
+ 
+        <div class="subm-meta">
+          <div class="meta-item">
+            Atividade
+            <strong>Curso Python</strong>
+          </div>
+          <div class="meta-item">
+            Horas
+            <strong>30h</strong>
+          </div>
+          <div class="meta-item">
+            Categoria
+            <strong>Curso livre</strong>
+          </div>
+          <div class="meta-item">
+            Enviado
+            <strong>02/04/2026</strong>
+          </div>
+        </div>
+ 
+        <div class="warn-banner">
+          ⚠ Aluna já tem 25h em cursos livres (limite: 30h)
+        </div>
+ 
+        <div class="subm-actions">
+          <a href="coordenador.html" class="btn-approve">✓ Aprovar</a>
+          <a href="coordenador.html" class="btn-reject">✗ Reprovar</a>
+        </div>
+      </div>
+ 
+      <!-- Card 2: colapsado -->
+      <div class="subm-card">
+        <div class="subm-card-head" style="border-bottom:none;padding-bottom:14px;">
+          <div>
+            <div class="subm-student-name">Pedro Santos</div>
+            <div class="subm-student-sub">Monitoria · 60h · 01/04</div>
+          </div>
+          <span class="badge badge-amber">Pendente</span>
+        </div>
+      </div>
+ 
+      <!-- Card 3: colapsado -->
+      <div class="subm-card">
+        <div class="subm-card-head" style="border-bottom:none;padding-bottom:14px;">
+          <div>
+            <div class="subm-student-name">Ana Costa</div>
+            <div class="subm-student-sub">Congresso · 8h · 28/03</div>
+          </div>
+          <span class="badge badge-amber">Pendente</span>
+        </div>
+      </div>
+ 
+      <!-- Card 4: colapsado -->
+      <div class="subm-card">
+        <div class="subm-card-head" style="border-bottom:none;padding-bottom:14px;">
+          <div>
+            <div class="subm-student-name">Carlos Lima</div>
+            <div class="subm-student-sub">Estágio · 40h · 15/03</div>
+          </div>
+          <span class="badge badge-amber">Pendente</span>
+        </div>
+      </div>
+ 
+    </div>
+ 
+    <footer>SIA Ibmec · Projeto em Ciência de Dados I — 2026.1 · Bernardo, Carlos, Julia, Leonardo, Matheus e Pietro</footer>
+  </div>
+</div>
+</body>
+</html>
+ 
