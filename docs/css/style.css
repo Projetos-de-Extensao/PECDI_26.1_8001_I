@@ -691,3 +691,261 @@ footer {
   background: #fff;
 }
  
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --navy:        #1e3a5f;
+  --navy-light:  #2d5282;
+  --orange:      #f59e0b;
+  --orange-bg:   #fffbeb;
+  --border:      #e5e7eb;
+  --text:        #111827;
+  --muted:       #6b7280;
+  --bg:          #f3f4f6;
+}
+
+html, body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ── LOGIN LAYOUT ───────────────────────────── */
+
+.login-container{
+  min-height: 100vh;
+  display: flex;
+}
+
+/* ── LADO ESQUERDO ──────────────────────────── */
+
+.login-left{
+  width: 45%;
+  background: linear-gradient(135deg, var(--navy), var(--navy-light));
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+/* LOGO */
+
+.brand{
+  position: absolute;
+  top: 30px;
+  left: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ibmec-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--orange);
+  flex-shrink: 0;
+}
+
+.brand-name{
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -.5px;
+}
+
+/* TEXTO */
+
+.left-content{
+  max-width: 420px;
+}
+
+.left-content h1{
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 18px;
+  font-weight: 800;
+}
+
+.left-content p{
+  font-size: 16px;
+  line-height: 1.8;
+  color: #dbe4f0;
+}
+
+/* ── LADO DIREITO ───────────────────────────── */
+
+.login-right{
+  flex: 1;
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+/* BOX LOGIN */
+
+.login-box{
+  width: 100%;
+  max-width: 380px;
+}
+
+.login-box h2{
+  font-size: 34px;
+  color: var(--navy);
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.subtitle{
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+/* INPUTS */
+
+.input-group{
+  margin-bottom: 18px;
+}
+
+.input-group label{
+  display: block;
+  margin-bottom: 6px;
+
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+.input-group input{
+  width: 100%;
+  padding: 12px 14px;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+
+  outline: none;
+  transition: .15s;
+}
+
+.input-group input:focus{
+  border-color: var(--navy);
+}
+
+/* OPCOES */
+
+.login-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
+.remember{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.forgot-password{
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--orange);
+}
+
+/* BOTAO */
+
+.login-button{
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: var(--orange);
+  color: #fff;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+
+  cursor: pointer;
+  transition: .15s;
+}
+
+.login-button:hover{
+  background: #d97706;
+}
+
+/* SUPORTE */
+
+.support-text{
+  margin-top: 18px;
+
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.support-text a{
+  color: var(--navy);
+  font-weight: 700;
+}
+
+/* ── RESPONSIVIDADE ─────────────────────────── */
+
+@media(max-width: 900px){
+
+  .login-container{
+    flex-direction: column;
+  }
+
+  .login-left{
+    width: 100%;
+    min-height: 320px;
+    padding: 40px;
+  }
+
+  .brand{
+    position: static;
+    margin-bottom: 40px;
+  }
+
+  .left-content h1{
+    font-size: 32px;
+  }
+
+  .login-right{
+    padding: 40px 24px;
+  }
+
+}
