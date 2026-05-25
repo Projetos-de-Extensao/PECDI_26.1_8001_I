@@ -1,13 +1,15 @@
 import './App.css'
-import Coordenador from './componentes/Coordenador'
-import Login from './componentes/login'
+import Coordenador from './components/Coordenador'
+import Login from './components/Login'
+import Secretaria from './components/Secretaria'
 
 function App() {
   
   return (
     <>
-      {/*<Login />*/}
-      <Coordenador />
+      {/*<Login />*
+      <Coordenador />*/}
+      <Secretaria />
     </>
   )
 }

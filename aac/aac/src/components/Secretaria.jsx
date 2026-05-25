@@ -31,7 +31,7 @@ function Secretaria() {
               <div className="name">Olá, <strong>Ana Claudia</strong></div>
               <div className="mat">Secretaria Acadêmica</div>
             </div>
-            <div className="avatar" style={{ background: '#d97706' }}>A</div>
+            <div className="avatar">A</div>
           </div>
         </header>
 
@@ -108,7 +108,7 @@ function Secretaria() {
             </table>
           </div>
 
-          <a href="#" className="export-link" style="margin-top:14px;">📊 Exportar relatório semanal.</a>
+          <a href="#" className="export-link">📊 Exportar relatório semanal.</a>
 
         </div>
 
